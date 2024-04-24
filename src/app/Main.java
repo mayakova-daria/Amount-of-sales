@@ -8,11 +8,11 @@ public class Main {
         int days2 = 7;
         double totalSales2 = 10486.85;
         double salesPerDay2 = 1498.12;
-        System.out.println("Product No 1: " + product1);
-        System.out.println("total sales for " + days1 + " days is EUR " + totalSales1);
-        System.out.println("sales by day is EUR " + salesPerDay1);
-        System.out.println("Product No 2: " + product2);
-        System.out.println("total sales for " + days2 + " days is EUR " + totalSales2);
-        System.out.println("sales by day is EUR " + salesPerDay2);
+        System.out.printf("Product No 1: " + product1);
+        System.out.printf("total sales for " + days1 + " days is EUR " + totalSales1);
+        System.out.printf("sales by day is EUR " + salesPerDay1);
+        System.out.printf("Product No 2: " + product2);
+        System.out.printf("total sales for " + days2 + " days is EUR " + totalSales2);
+        System.out.printf("sales by day is EUR " + salesPerDay2);
     }
 }
